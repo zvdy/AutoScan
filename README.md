@@ -5,7 +5,7 @@ This _Python_ Script runs the following scans to the user's given IP address
 creating a **.txt file** for each scanning software:
 ___
 ## Nmap
-`nmap -sV -sC`
+`nmap -sV -sC IP`
 
 ## Nikto
 `nikto -h IP`
@@ -29,7 +29,7 @@ ___
 `nbtscan IP`
 
 ## Enum4Linux
-`enum4linux`
+`enum4linux IP`
 
 ## smbMap
 `smbmap -H IP`
